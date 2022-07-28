@@ -10,6 +10,9 @@ app = Flask(__name__)
 LOG = create_logger(app)
 LOG.setLevel(logging.INFO)
 
+# logging config
+#logging.basicConfig(filename='output_txt_files/docker_output.txt', level=logging.INFO, filemode='w', format='%(asctime)s: %(name)s: %(levelname)s: %(message)s')
+
 def scale(payload):
     """Scales Payload"""
     
