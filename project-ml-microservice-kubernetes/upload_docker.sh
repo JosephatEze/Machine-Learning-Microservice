@@ -10,10 +10,10 @@ dockerpath=josephat/machine-learning-microservice
 
 # Step 2:  
 # Authenticate & tag
+docker tag api $dockerpath:v1.0.0
 docker login 
-docker tag api $dockerpath
 echo "Docker ID and Image: $dockerpath"
 
 # Step 3:
 # Push image to a docker repository
-docker push $dockerpath:api
+docker push $dockerpath
