@@ -10,7 +10,7 @@ dockerpath=josephat/machine-learning-microservice
 
 # Step 2:  
 # Authenticate & tag
-docker tag api $dockerpath:v1.0.0
+docker tag api $dockerpath
 docker login 
 echo "Docker ID and Image: $dockerpath"
 
