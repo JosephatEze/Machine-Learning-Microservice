@@ -1,5 +1,5 @@
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/JosephatEze/Machine-Learning-Microservice/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/JosephatEze/Machine-Learning-Microservice/tree/main)
-<include a CircleCI status badge, here>
+
 
 ## Project Overview
 
